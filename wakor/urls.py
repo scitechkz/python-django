@@ -20,6 +20,6 @@ from .import views
 
 urlpatterns = [
     path('', views.index, name='index'),
-    path('home.html/' , views.home),
+    #path('home.html/' , views.home),
 ]
 
